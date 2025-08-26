@@ -1,13 +1,29 @@
 [project]
-name = "streamlit-cookies-manager"
-version = "0.3.0"
-description = "Access and save cookies from Streamlit"
+name = "streamlit-cookies-manager-v2"
+version = "0.3.1"
+description = "Access and save cookies from Streamlit - Modernized fork with st.cache_data fix, uv package manager, and updated Node dependencies"
 authors = [
     { name = "Tomasz Kontusz", email = "tomasz.kontusz@gmail.com" },
+]
+maintainers = [
+    { name = "JohnDoeData", email = "johndoe_data@outlook.com" },
 ]
 license = { text = "Apache-2.0" }
 readme = "README.md"
 requires-python = ">=3.9"
+keywords = ["streamlit", "cookies", "browser-storage", "session-management", "streamlit-component"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
 dependencies = [
     "streamlit>=1.18.0",
     "cryptography",
@@ -19,6 +35,12 @@ dev = [
     "black>=23.0.0",
     "ruff>=0.1.0",
 ]
+
+[project.urls]
+Homepage = "https://github.com/JohnDoeData/streamlit-cookies-manager"
+Repository = "https://github.com/JohnDoeData/streamlit-cookies-manager.git"
+"Bug Tracker" = "https://github.com/JohnDoeData/streamlit-cookies-manager/issues"
+"Original Project" = "https://github.com/ktosiek/streamlit-cookies-manager"
 
 [build-system]
 requires = ["hatchling"]

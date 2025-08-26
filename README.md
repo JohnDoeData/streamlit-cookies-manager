@@ -1,6 +1,6 @@
-# Streamlit Cookies Manager (Modernized Fork)
+# Streamlit Cookies Manager v2
 
-> **Note**: This is a modernized fork of the original [streamlit-cookies-manager](https://github.com/ktosiek/streamlit-cookies-manager) by Tomasz Kontusz, updated to work with Streamlit 1.18+ and modern Python tooling.
+> **Note**: This is a modernized fork of the original [streamlit-cookies-manager](https://github.com/ktosiek/streamlit-cookies-manager) by Tomasz Kontusz. The core functionality and most of the codebase remains his work. This fork updates the package for Streamlit 1.18+ compatibility and modern Python tooling.
 
 ## What's New in This Fork
 
@@ -12,16 +12,21 @@
 
 ## Installation
 
-### From GitHub (Recommended for now)
+### From PyPI
 ```bash
-pip install git+https://github.com/JohnDoeData/streamlit-cookies-manager.git@modernize-streamlit-1.18
+pip install streamlit-cookies-manager-v2
 
 # Or using UV
-uv pip install git+https://github.com/JohnDoeData/streamlit-cookies-manager.git@modernize-streamlit-1.18
+uv pip install streamlit-cookies-manager-v2
 ```
 
-### From PyPI (Coming Soon)
-This fork will be published to PyPI under a new name to avoid conflicts with the original package.
+### From GitHub (Development)
+```bash
+pip install git+https://github.com/JohnDoeData/streamlit-cookies-manager.git
+
+# Or using UV
+uv pip install git+https://github.com/JohnDoeData/streamlit-cookies-manager.git
+```
 
 ## Usage
 
@@ -122,13 +127,15 @@ npm run build
 2. **Dependency Updates**: Updated all Python and JavaScript dependencies to latest stable versions
 3. **Build System**: Migrated from Poetry to UV for faster, more reliable dependency management
 4. **Package Format**: Updated to PEP 621 compliant `pyproject.toml` format
-5. **Version Bump**: Version 0.3.0 to indicate breaking changes from original
+5. **Version**: Continuing from 0.3.1 to show continuity from the original project
 
 ## Credits
 
-Original implementation by [Tomasz Kontusz](https://github.com/ktosiek) - [streamlit-cookies-manager](https://github.com/ktosiek/streamlit-cookies-manager)
+**Original Author**: [Tomasz Kontusz](https://github.com/ktosiek) - [streamlit-cookies-manager](https://github.com/ktosiek/streamlit-cookies-manager)
 
-This fork is maintained to ensure compatibility with modern Streamlit versions.
+**Current Maintainer**: [JohnDoeData](https://github.com/JohnDoeData)
+
+This fork is maintained to ensure compatibility with modern Streamlit versions. The majority of the codebase and functionality was created by the original author.
 
 ## License
 
